@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FD9184F1D9B56630042485A"
+               BuildableName = "bibleMemorizer.app"
+               BlueprintName = "bibleMemorizer"
+               ReferencedContainer = "container:bibleMemorizer.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FD918651D9B56630042485A"
+               BuildableName = "bibleMemorizerTests.xctest"
+               BlueprintName = "bibleMemorizerTests"
+               ReferencedContainer = "container:bibleMemorizer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FD918701D9B56640042485A"
+               BuildableName = "bibleMemorizerUITests.xctest"
+               BlueprintName = "bibleMemorizerUITests"
+               ReferencedContainer = "container:bibleMemorizer.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8FD9184F1D9B56630042485A"
+            BuildableName = "bibleMemorizer.app"
+            BlueprintName = "bibleMemorizer"
+            ReferencedContainer = "container:bibleMemorizer.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8FD9184F1D9B56630042485A"
+            BuildableName = "bibleMemorizer.app"
+            BlueprintName = "bibleMemorizer"
+            ReferencedContainer = "container:bibleMemorizer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8FD9184F1D9B56630042485A"
+            BuildableName = "bibleMemorizer.app"
+            BlueprintName = "bibleMemorizer"
+            ReferencedContainer = "container:bibleMemorizer.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

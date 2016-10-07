@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1AABA51DA392B300FEA145 /* JJProblemGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AABA41DA392B300FEA145 /* JJProblemGenerator.swift */; };
+		8F1AABB71DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1AABB51DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.swift */; };
+		8F1AABB81DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1AABB61DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.xib */; };
+		8F1AABBA1DA62CE700FEA145 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F1AABB91DA62CE700FEA145 /* words.plist */; };
+		8F7DB93F1D9DEBFF0058E6A1 /* JJHolyWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DB93E1D9DEBFF0058E6A1 /* JJHolyWords.swift */; };
+		8F9174391D9E27A900422A74 /* JJSubjectListMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9174381D9E27A900422A74 /* JJSubjectListMenuViewController.swift */; };
+		8F9174421D9E4AC100422A74 /* JJFirstWordMemorizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9174411D9E4AC100422A74 /* JJFirstWordMemorizerViewController.swift */; };
+		8F9174481D9F3B7200422A74 /* JJProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9174471D9F3B7200422A74 /* JJProblem.swift */; };
 		8FD918541D9B56630042485A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD918531D9B56630042485A /* AppDelegate.swift */; };
-		8FD918561D9B56630042485A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD918551D9B56630042485A /* FirstViewController.swift */; };
 		8FD918581D9B56630042485A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD918571D9B56630042485A /* SecondViewController.swift */; };
 		8FD9185B1D9B56630042485A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD918591D9B56630042485A /* Main.storyboard */; };
 		8FD9185D1D9B56630042485A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD9185C1D9B56630042485A /* Assets.xcassets */; };
 		8FD918601D9B56630042485A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD9185E1D9B56630042485A /* LaunchScreen.storyboard */; };
 		8FD9186B1D9B56630042485A /* bibleMemorizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD9186A1D9B56630042485A /* bibleMemorizerTests.swift */; };
 		8FD918761D9B56640042485A /* bibleMemorizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD918751D9B56640042485A /* bibleMemorizerUITests.swift */; };
+		8FD9188E1D9B926F0042485A /* JJSubjectListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD9188C1D9B926F0042485A /* JJSubjectListTableViewCell.swift */; };
+		8FD9188F1D9B926F0042485A /* JJSubjectListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD9188D1D9B926F0042485A /* JJSubjectListTableViewCell.xib */; };
+		8FD918921D9B9B260042485A /* JJSubjectListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD918911D9B9B260042485A /* JJSubjectListDataProvider.swift */; };
+		8FD918941D9BA1FB0042485A /* JJSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD918931D9BA1FB0042485A /* JJSubject.swift */; };
+		8FEE8CAE1D9C9980008C1809 /* JJWordMemorizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEE8CAD1D9C9980008C1809 /* JJWordMemorizerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F1AABA41DA392B300FEA145 /* JJProblemGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJProblemGenerator.swift; sourceTree = "<group>"; };
+		8F1AABB51DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJProblemAnswerCollectionViewCell.swift; sourceTree = "<group>"; };
+		8F1AABB61DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJProblemAnswerCollectionViewCell.xib; sourceTree = "<group>"; };
+		8F1AABB91DA62CE700FEA145 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		8F7DB93E1D9DEBFF0058E6A1 /* JJHolyWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJHolyWords.swift; sourceTree = "<group>"; };
+		8F9174381D9E27A900422A74 /* JJSubjectListMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJSubjectListMenuViewController.swift; sourceTree = "<group>"; };
+		8F9174411D9E4AC100422A74 /* JJFirstWordMemorizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJFirstWordMemorizerViewController.swift; sourceTree = "<group>"; };
+		8F9174471D9F3B7200422A74 /* JJProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJProblem.swift; sourceTree = "<group>"; };
 		8FD918501D9B56630042485A /* bibleMemorizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bibleMemorizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD918531D9B56630042485A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8FD918551D9B56630042485A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8FD918571D9B56630042485A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8FD9185A1D9B56630042485A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FD9185C1D9B56630042485A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +68,11 @@
 		8FD918711D9B56640042485A /* bibleMemorizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bibleMemorizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD918751D9B56640042485A /* bibleMemorizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bibleMemorizerUITests.swift; sourceTree = "<group>"; };
 		8FD918771D9B56640042485A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD9188C1D9B926F0042485A /* JJSubjectListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJSubjectListTableViewCell.swift; sourceTree = "<group>"; };
+		8FD9188D1D9B926F0042485A /* JJSubjectListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJSubjectListTableViewCell.xib; sourceTree = "<group>"; };
+		8FD918911D9B9B260042485A /* JJSubjectListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJSubjectListDataProvider.swift; sourceTree = "<group>"; };
+		8FD918931D9BA1FB0042485A /* JJSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJSubject.swift; sourceTree = "<group>"; };
+		8FEE8CAD1D9C9980008C1809 /* JJWordMemorizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JJWordMemorizerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +100,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F1AABA31DA3929D00FEA145 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F1AABA41DA392B300FEA145 /* JJProblemGenerator.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8F1AABA61DA3AA4100FEA145 /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIUtils;
+			sourceTree = "<group>";
+		};
+		8F91743C1D9E4A4000422A74 /* wordMemorizeFirst */ = {
+			isa = PBXGroup;
+			children = (
+				8F1AABA31DA3929D00FEA145 /* Utils */,
+				8F9174401D9E4A6300422A74 /* viewController */,
+				8F91743F1D9E4A5F00422A74 /* model */,
+				8F91743E1D9E4A5500422A74 /* view */,
+				8F91743D1D9E4A4D00422A74 /* dataProvider */,
+			);
+			name = wordMemorizeFirst;
+			sourceTree = "<group>";
+		};
+		8F91743D1D9E4A4D00422A74 /* dataProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = dataProvider;
+			sourceTree = "<group>";
+		};
+		8F91743E1D9E4A5500422A74 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8F1AABB51DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.swift */,
+				8F1AABB61DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8F91743F1D9E4A5F00422A74 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8F9174471D9F3B7200422A74 /* JJProblem.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		8F9174401D9E4A6300422A74 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F9174411D9E4AC100422A74 /* JJFirstWordMemorizerViewController.swift */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
 		8FD918471D9B56630042485A = {
 			isa = PBXGroup;
 			children = (
+				8F1AABA61DA3AA4100FEA145 /* UIUtils */,
 				8FD918521D9B56630042485A /* bibleMemorizer */,
 				8FD918691D9B56630042485A /* bibleMemorizerTests */,
 				8FD918741D9B56640042485A /* bibleMemorizerUITests */,
@@ -99,13 +183,16 @@
 		8FD918521D9B56630042485A /* bibleMemorizer */ = {
 			isa = PBXGroup;
 			children = (
+				8F91743C1D9E4A4000422A74 /* wordMemorizeFirst */,
+				8FEE8CA81D9C98FF008C1809 /* wordMemorizer */,
+				8FD918851D9B91840042485A /* subjectList */,
 				8FD918531D9B56630042485A /* AppDelegate.swift */,
-				8FD918551D9B56630042485A /* FirstViewController.swift */,
 				8FD918571D9B56630042485A /* SecondViewController.swift */,
 				8FD918591D9B56630042485A /* Main.storyboard */,
 				8FD9185C1D9B56630042485A /* Assets.xcassets */,
 				8FD9185E1D9B56630042485A /* LaunchScreen.storyboard */,
 				8FD918611D9B56630042485A /* Info.plist */,
+				8F1AABB91DA62CE700FEA145 /* words.plist */,
 			);
 			path = bibleMemorizer;
 			sourceTree = "<group>";
@@ -126,6 +213,99 @@
 				8FD918771D9B56640042485A /* Info.plist */,
 			);
 			path = bibleMemorizerUITests;
+			sourceTree = "<group>";
+		};
+		8FD918851D9B91840042485A /* subjectList */ = {
+			isa = PBXGroup;
+			children = (
+				8FD918901D9B92830042485A /* model */,
+				8FD918891D9B92290042485A /* dataProvider */,
+				8FD918871D9B921D0042485A /* view */,
+				8FD918861D9B92100042485A /* viewController */,
+			);
+			name = subjectList;
+			sourceTree = "<group>";
+		};
+		8FD918861D9B92100042485A /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				8F9174381D9E27A900422A74 /* JJSubjectListMenuViewController.swift */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		8FD918871D9B921D0042485A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8FD918881D9B92240042485A /* cell */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8FD918881D9B92240042485A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				8FD9188C1D9B926F0042485A /* JJSubjectListTableViewCell.swift */,
+				8FD9188D1D9B926F0042485A /* JJSubjectListTableViewCell.xib */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		8FD918891D9B92290042485A /* dataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				8FD918911D9B9B260042485A /* JJSubjectListDataProvider.swift */,
+			);
+			name = dataProvider;
+			sourceTree = "<group>";
+		};
+		8FD918901D9B92830042485A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8FD918931D9BA1FB0042485A /* JJSubject.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		8FEE8CA81D9C98FF008C1809 /* wordMemorizer */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE8CAC1D9C991C008C1809 /* dataProvider */,
+				8FEE8CAB1D9C9916008C1809 /* viewController */,
+				8FEE8CAA1D9C9912008C1809 /* view */,
+				8FEE8CA91D9C990E008C1809 /* model */,
+			);
+			name = wordMemorizer;
+			sourceTree = "<group>";
+		};
+		8FEE8CA91D9C990E008C1809 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8F7DB93E1D9DEBFF0058E6A1 /* JJHolyWords.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		8FEE8CAA1D9C9912008C1809 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8FEE8CAB1D9C9916008C1809 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				8FEE8CAD1D9C9980008C1809 /* JJWordMemorizerViewController.swift */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		8FEE8CAC1D9C991C008C1809 /* dataProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = dataProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +417,9 @@
 			files = (
 				8FD918601D9B56630042485A /* LaunchScreen.storyboard in Resources */,
 				8FD9185D1D9B56630042485A /* Assets.xcassets in Resources */,
+				8FD9188F1D9B926F0042485A /* JJSubjectListTableViewCell.xib in Resources */,
+				8F1AABB81DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.xib in Resources */,
+				8F1AABBA1DA62CE700FEA145 /* words.plist in Resources */,
 				8FD9185B1D9B56630042485A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +445,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD918941D9BA1FB0042485A /* JJSubject.swift in Sources */,
+				8F9174391D9E27A900422A74 /* JJSubjectListMenuViewController.swift in Sources */,
+				8FD9188E1D9B926F0042485A /* JJSubjectListTableViewCell.swift in Sources */,
 				8FD918581D9B56630042485A /* SecondViewController.swift in Sources */,
+				8F7DB93F1D9DEBFF0058E6A1 /* JJHolyWords.swift in Sources */,
 				8FD918541D9B56630042485A /* AppDelegate.swift in Sources */,
-				8FD918561D9B56630042485A /* FirstViewController.swift in Sources */,
+				8F1AABB71DA5E94300FEA145 /* JJProblemAnswerCollectionViewCell.swift in Sources */,
+				8F1AABA51DA392B300FEA145 /* JJProblemGenerator.swift in Sources */,
+				8FEE8CAE1D9C9980008C1809 /* JJWordMemorizerViewController.swift in Sources */,
+				8F9174421D9E4AC100422A74 /* JJFirstWordMemorizerViewController.swift in Sources */,
+				8F9174481D9F3B7200422A74 /* JJProblem.swift in Sources */,
+				8FD918921D9B9B260042485A /* JJSubjectListDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +608,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = bibleMemorizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MS.bibleMemorizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +622,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = bibleMemorizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MS.bibleMemorizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +705,7 @@
 				8FD9187C1D9B56640042485A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FD9187D1D9B56640042485A /* Build configuration list for PBXNativeTarget "bibleMemorizerTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +714,7 @@
 				8FD9187F1D9B56640042485A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FD918801D9B56640042485A /* Build configuration list for PBXNativeTarget "bibleMemorizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +723,7 @@
 				8FD918821D9B56640042485A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
